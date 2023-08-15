@@ -119,3 +119,91 @@ header > ul >a > li:hover{
     height: 300px;
     padding: 10px;
 }
+.container > .eletrico{
+    height:450px;
+    width: 300px;
+    border: solid 3px rgb(227, 241, 19);
+    border-radius: 50px;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    color: rgb(141, 143, 6);
+    box-shadow: rgba(214, 252, 0, 0.329) 11px 11px 50px;
+    background-color: rgba(204, 177, 25, 0.644);
+    margin-top: 20px;
+    background-image: url(https://www.imagensanimadas.com/data/media/41/relampago-e-raio-imagem-animada-0001.gif) ;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position-y: 70px;
+}
+.pika{
+    width:200px; 
+    height: 300px;
+    padding: 10px;
+}
+.logo-raio{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    margin-top: -341px;
+    margin-left:50px;
+}
+.container > .grama{
+    height:450px;
+    width: 300px;
+    border: solid 3px rgb(20, 146, 4);
+    border-radius: 50px;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    color: rgb(164, 253, 198);
+    box-shadow: rgba(214, 252, 0, 0.329) 11px 11px 50px;
+    background-color: rgba(3, 85, 1, 0.644);
+    margin-top: 20px;
+    background-image: url(https://www.pngmart.com/files/16/Grass-Vector-PNG-Photos.png) ;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position-y: -10px;
+}
+.veno{
+    width:300px; 
+    height: 300px;
+    padding: 10px;
+}
+.logo-grama{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    margin-top: -341px;
+    margin-left:30px;
+    mix-blend-mode: multiply ;
+}
+.container > .psiquico{
+    height:450px;
+    width: 300px;
+    border: solid 3px rgba(225, 0, 255, 0.979);
+    border-radius: 50px;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    box-shadow: rgb(230, 15, 212) 11px 11px 50px;
+    background-color: rgba(112, 0, 134, 0.884);
+    margin-top: 20px;
+    background-image: url(https://img.ibxk.com.br/2011/11/gifs/tumblr_lrheb0ji6U1qzt4vjo1_500.gif) ;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position-y: 0px;
+    background-position-x: -90px;
+    background-blend-mode: overlay;
+}
+.logo-psico{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    margin-top: -331px;
+    margin-left:50px;
+}
