@@ -63,7 +63,7 @@ header > ul >a > li:hover{
     text-align: center;
     color: rgb(20, 20, 20);
     box-shadow: rgba(241, 4, 4, 0.329) 11px 11px 50px;
-    background-color: rgba(192, 89, 48, 0.87);
+    background-color: rgba(192, 89, 48, 0.822);
     margin-top: 20px;
     background-image: url(https://i.pinimg.com/originals/b7/21/34/b72134112b54864e4948865375ecbb11.gif) ;
     background-size: cover ;
@@ -206,4 +206,32 @@ header > ul >a > li:hover{
     display: flex;
     margin-top: -331px;
     margin-left:50px;
+}
+.terra{
+    height:450px;
+    width: 300px;
+    border: solid 3px rgba(255, 0, 0, 0.979);
+    border-radius: 50px;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    color: rgb(253, 93, 93);
+    box-shadow: rgba(150, 12, 12, 0.911) 11px 11px 50px;
+    background-color: rgba(92, 0, 20, 0.884);
+    margin-top: 20px;
+    background-image: url(https://img.freepik.com/fotos-premium/solo-rachado-e-material-de-textura_90839-997.jpg) ;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position-y: 0px;
+    background-position-x: -90px;
+    background-blend-mode: overlay;
+}
+.logo-terra{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    margin-top: -335px;
+    margin-left:40px;
+
 }
