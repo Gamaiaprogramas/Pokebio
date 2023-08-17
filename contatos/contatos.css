@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(https://c4.wallpaperflare.com/wallpaper/15/453/148/pokemon-ruby-version-wallpaper-thumb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+header{
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8c601631-9665-49bc-8f2d-82c37ddc520c/df0wd93-c6c95f16-fe79-4c73-9f61-f2e78e255453.jpg/v1/fill/w_736,h_414,q_75,strp/pokemon_grass_background_by_darkdinox_df0wd93-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDE0IiwicGF0aCI6IlwvZlwvOGM2MDE2MzEtOTY2NS00OWJjLThmMmQtODJjMzdkZGM1MjBjXC9kZjB3ZDkzLWM2Yzk1ZjE2LWZlNzktNGM3My05ZjYxLWYyZTc4ZTI1NTQ1My5qcGciLCJ3aWR0aCI6Ijw9NzM2In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.IQBQg2GOPZjfwoTStbFShKnL-vU2JbLYjx81RnMCzfg);
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0 20px;
+    background-size: cover ;
+}
+header >a> img{
+    height: 65px;
+}
+header > h1{
+  background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(240, 4, 4), rgb(250, 250, 250));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: underline ;
+}
+
+header > ul{
+    display: flex;
+    list-style: none;
+}
+header > ul > a{
+    color: black;
+    text-decoration: none;
+}
+header > ul > a >li {
+    border: solid 4px rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    text-align: center;
+    margin: 20px;
+    padding: 8px;
+    box-shadow: 1px 1px 20px rgb(12, 12, 12);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    font-size: 13px;
+}
+header > ul >a > li:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 40px rgb(233, 17, 17);
+    font-size: 15px;
+    color: rgb(112, 6, 6);
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container > div{
+    border-radius: 25px;
+    margin: 60px 0px 10px 0px ;
+    height: 200px;
+    width: 500px;
+}
+.git_logo{
+    filter: invert();
+    height: inherit;
+}
+.container > .git {
+    display: flex;
+    background-color: rgba(46, 45, 45, 0.479);
+    border: 3px solid black;
+    box-shadow: 5px 5px 7px black;
+}
+.container > .git > h1{
+   display: block;
+}
+.container > .git > h2{
+    position: absolute;
+    width: 200px;
+    margin-left: 202px;
+    margin-top: 40px;
+}
+.butao{
+    transform: height 1s , width 1s , font-size 1s;
+    width: 170px;
+    height: 40px;
+    position: absolute;
+    margin-top: 132px;
+    margin-left: -120px;
+    background: black;
+    color: white;
+    border: 2px white;
+    border-radius: 25px;
+    font-size: 30px;
+    box-shadow: 2px 2px 7px white;
+}
+.butao:hover{
+    height: 44px;
+    width: 175px;
+    background-color: rgba(0, 0, 0, 0.623);
+    box-shadow: 2px 2px 20px white;
+}
+.insta{
+    background-image: url(/imagens/back_insta.jpg);
+    display: flex;
+    box-shadow: 5px  5px 8px white;
+}
+.insta > h1{
+    color: white;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+.insta > h2{
+    position: absolute;
+    width: 200px;
+    margin-left: 202px;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+.botao{
+    transform: height 1s , width 1s , font-size 1s;
+    width: 160px;
+    height: 35px;
+    position: absolute;
+    margin-top: 146px;
+    margin-left: -149px;
+    background-image: url(/imagens/back_insta.jpg);
+    background-size: 200px;
+    color: white;
+    border: 4px rgb(0, 0, 0);
+    border-radius: 25px;
+    font-size: 30px;
+    box-shadow: 2px 2px 7px white;
+}
+.botao:hover{
+    height: 44px;
+    width: 165px;
+    box-shadow: 2px 2px 7px white;
+}

@@ -35,7 +35,10 @@ header > ul{
     display: flex;
     list-style: none;
 }
-
+header > ul > a{
+    color: black;
+    text-decoration: none;
+}
 header > ul > a >li {
     border: solid 4px rgb(255, 0, 0);
     background-color: rgb(255, 255, 255);
@@ -45,6 +48,7 @@ header > ul > a >li {
     padding: 8px;
     box-shadow: 1px 1px 20px rgb(12, 12, 12);
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
     font-size: 13px;
 }
 header > ul >a > li:hover{
@@ -52,6 +56,7 @@ header > ul >a > li:hover{
     box-shadow: 2px 2px 40px rgb(233, 17, 17);
     font-size: 15px;
     color: rgb(112, 6, 6);
+    
 }
 .container >.fogo{
     height:450px;
@@ -96,7 +101,7 @@ header > ul >a > li:hover{
     float: left;
     margin: 10px;
     text-align: center;
-    color: rgb(3, 103, 143);
+    color: rgb(6, 51, 68);
     box-shadow: rgba(1, 36, 110, 0.329) 11px 11px 50px;
     background-color: rgb(103, 159, 243);
     margin-top: 20px;
@@ -233,5 +238,51 @@ header > ul >a > li:hover{
     display: flex;
     margin-top: -335px;
     margin-left:40px;
+
+}
+.fada{
+    height:450px;
+    width: 300px;
+    border: solid 3px rgba(255, 0, 221, 0.979);
+    border-radius: 50px;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    color: rgb(255, 152, 246);
+    box-shadow: rgb(228, 16, 157) 11px 11px 50px;
+    background-color: rgba(87, 0, 75, 0.637);
+    margin-top: 20px;
+    background-image: url(https://i.pinimg.com/originals/68/8e/9e/688e9eb45c2f5cc82361d5c305ccc0ca.gif) ;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position-y: 0px;
+    background-position-x: -90px;
+    background-blend-mode: overlay;
+}
+.logo-fada{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    margin-top: -341px;
+    margin-left:30px;
+}
+.drago{
+    height:450px;
+    width: 300px;
+    border: solid 3px rgba(218, 0, 0, 0.979);
+    border-radius: 50px;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    box-shadow: rgb(16, 48, 228) 11px 11px 50px;
+    background-color: rgba(32, 21, 185, 0.637);
+    margin-top: 20px;
+    background-image: url(https://i.gifer.com/5Jxn.gif) ;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position-y: 0px;
+    background-position-x: -90px;
 
 }
