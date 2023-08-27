@@ -1,0 +1,66 @@
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://images3.alphacoders.com/273/273289.jpg);
+    background-size: cover;
+    align-items: center; 
+    text-align: center;
+}
+.topo{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0 20px;
+    background-size: cover ;
+    background-color: rgba(0, 0, 0, 0.192);
+}
+.topo> a>img{
+    height: 50px;
+    width: 40px;
+    transition: 0.5s;
+}
+.topo > a > img:hover{
+    height: 52px;
+    width: 42px;
+    transform: translateX(1px) translateY(1px);
+}
+
+.login{
+    background-color: rgba(255, 174, 0, 0.671);
+    height: 600px;
+    width: 500px;
+    margin: 10% auto;
+    border-radius: 20px;
+    align-items: center;
+    border: 3px black solid;
+    display: flex;
+    font-size: 25px;
+    font-family: 'Bebas Neue', sans-serif;
+    flex-direction: column;
+    transition:  0.5s;
+}
+.login > form input
+{
+    border-radius: 10px;
+    padding: 9px;
+    background-color: rgba(255, 255, 255, 0.726);
+}
+.login >a> button{
+    font-size: 40px;
+    border-radius: 15px;
+    width: 240px;
+    background-color: rgb(7, 196, 7);
+    color: rgb(255, 255, 255);
+    transition:  0.5s;
+}
+.login>a> button:hover{
+    cursor: pointer;
+    transform: translateX(1px) translateY(1px);
+    box-shadow: 1px 1px 20px white;
+}

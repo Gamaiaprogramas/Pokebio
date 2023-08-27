@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+
 *{
     margin: 0;
     padding: 0;
@@ -11,7 +13,7 @@ body{
 }
 header{
     background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8c601631-9665-49bc-8f2d-82c37ddc520c/df0wd93-c6c95f16-fe79-4c73-9f61-f2e78e255453.jpg/v1/fill/w_736,h_414,q_75,strp/pokemon_grass_background_by_darkdinox_df0wd93-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDE0IiwicGF0aCI6IlwvZlwvOGM2MDE2MzEtOTY2NS00OWJjLThmMmQtODJjMzdkZGM1MjBjXC9kZjB3ZDkzLWM2Yzk1ZjE2LWZlNzktNGM3My05ZjYxLWYyZTc4ZTI1NTQ1My5qcGciLCJ3aWR0aCI6Ijw9NzM2In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.IQBQg2GOPZjfwoTStbFShKnL-vU2JbLYjx81RnMCzfg);
-    height: 70px;
+    height: 90px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,18 +21,16 @@ header{
     background-size: cover ;
 }
 header >a> img{
-    height: 65px;
+    height: 90px;
+    mix-blend-mode: darken;
+    width: 120px;
 }
-header > h1{
-  background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(240, 4, 4), rgb(250, 250, 250));
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: black;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-decoration: underline ;
+.logo-poke{
+    height: 130px;
+    width: 200px;
+    margin-bottom: 30px;
+    
 }
-
 header > ul{
     display: flex;
     list-style: none;
@@ -46,30 +46,39 @@ header > ul > a >li {
     text-align: center;
     margin: 20px;
     padding: 8px;
-    box-shadow: 1px 1px 20px rgb(12, 12, 12);
+    box-shadow: 1px 1px 20px rgba(12, 12, 12, 0.452);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
+    transition: 0.5s;
     font-size: 13px;
 }
 header > ul >a > li:hover{
     cursor: pointer;
-    box-shadow: 2px 2px 40px rgb(233, 17, 17);
+    box-shadow: none;
     font-size: 15px;
     color: rgb(112, 6, 6);
+    transform: translateX(1px) translateY(1px);
     
 }
-.container >.fogo{
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.container>div{
     height:450px;
     width: 300px;
-    border: solid 3px rgb(255, 21, 21);
-    border-radius: 50px;
-    float: left;
     margin: 10px;
     text-align: center;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+
+.container >.fogo{
+    border: solid 3px rgb(255, 21, 21);
     color: rgb(20, 20, 20);
     box-shadow: rgba(241, 4, 4, 0.329) 11px 11px 50px;
     background-color: rgba(192, 89, 48, 0.822);
-    margin-top: 20px;
     background-image: url(https://i.pinimg.com/originals/b7/21/34/b72134112b54864e4948865375ecbb11.gif) ;
     background-size: cover ;
     background-repeat: no-repeat;
@@ -94,17 +103,10 @@ header > ul >a > li:hover{
     margin-left:40px;
 }
 .container >.agua{
-    height:450px;
-    width: 300px;
     border: solid 3px rgb(72, 21, 255);
-    border-radius: 50px;
-    float: left;
-    margin: 10px;
-    text-align: center;
     color: rgb(6, 51, 68);
     box-shadow: rgba(1, 36, 110, 0.329) 11px 11px 50px;
     background-color: rgb(103, 159, 243);
-    margin-top: 20px;
     background-image: url(https://media0.giphy.com/media/i4GINnCIFD7i727t0N/giphy.gif) ;
     background-size: cover ;
     background-repeat: no-repeat;
@@ -125,17 +127,10 @@ header > ul >a > li:hover{
     padding: 10px;
 }
 .container > .eletrico{
-    height:450px;
-    width: 300px;
     border: solid 3px rgb(227, 241, 19);
-    border-radius: 50px;
-    float: left;
-    margin: 10px;
-    text-align: center;
     color: rgb(141, 143, 6);
     box-shadow: rgba(214, 252, 0, 0.329) 11px 11px 50px;
     background-color: rgba(204, 177, 25, 0.644);
-    margin-top: 20px;
     background-image: url(https://www.imagensanimadas.com/data/media/41/relampago-e-raio-imagem-animada-0001.gif) ;
     background-size: cover ;
     background-repeat: no-repeat;
@@ -155,17 +150,11 @@ header > ul >a > li:hover{
     margin-left:50px;
 }
 .container > .grama{
-    height:450px;
-    width: 300px;
     border: solid 3px rgb(20, 146, 4);
     border-radius: 50px;
-    float: left;
-    margin: 10px;
-    text-align: center;
     color: rgb(164, 253, 198);
     box-shadow: rgba(214, 252, 0, 0.329) 11px 11px 50px;
     background-color: rgba(3, 85, 1, 0.644);
-    margin-top: 20px;
     background-image: url(https://www.pngmart.com/files/16/Grass-Vector-PNG-Photos.png) ;
     background-size: cover ;
     background-repeat: no-repeat;
@@ -186,17 +175,10 @@ header > ul >a > li:hover{
     mix-blend-mode: multiply ;
 }
 .container > .psiquico{
-    height:450px;
-    width: 300px;
     border: solid 3px rgba(225, 0, 255, 0.979);
-    border-radius: 50px;
-    float: left;
-    margin: 10px;
-    text-align: center;
     color: rgb(255, 255, 255);
     box-shadow: rgb(230, 15, 212) 11px 11px 50px;
     background-color: rgba(112, 0, 134, 0.884);
-    margin-top: 20px;
     background-image: url(https://img.ibxk.com.br/2011/11/gifs/tumblr_lrheb0ji6U1qzt4vjo1_500.gif) ;
     background-size: cover ;
     background-repeat: no-repeat;
@@ -213,17 +195,11 @@ header > ul >a > li:hover{
     margin-left:50px;
 }
 .terra{
-    height:450px;
-    width: 300px;
     border: solid 3px rgba(255, 0, 0, 0.979);
     border-radius: 50px;
-    float: left;
-    margin: 10px;
-    text-align: center;
     color: rgb(253, 93, 93);
     box-shadow: rgba(150, 12, 12, 0.911) 11px 11px 50px;
     background-color: rgba(92, 0, 20, 0.884);
-    margin-top: 20px;
     background-image: url(https://img.freepik.com/fotos-premium/solo-rachado-e-material-de-textura_90839-997.jpg) ;
     background-size: cover ;
     background-repeat: no-repeat;
@@ -241,17 +217,10 @@ header > ul >a > li:hover{
 
 }
 .fada{
-    height:450px;
-    width: 300px;
     border: solid 3px rgba(255, 0, 221, 0.979);
-    border-radius: 50px;
-    float: left;
-    margin: 10px;
-    text-align: center;
     color: rgb(255, 152, 246);
     box-shadow: rgb(228, 16, 157) 11px 11px 50px;
     background-color: rgba(87, 0, 75, 0.637);
-    margin-top: 20px;
     background-image: url(https://i.pinimg.com/originals/68/8e/9e/688e9eb45c2f5cc82361d5c305ccc0ca.gif) ;
     background-size: cover ;
     background-repeat: no-repeat;
@@ -268,17 +237,10 @@ header > ul >a > li:hover{
     margin-left:30px;
 }
 .drago{
-    height:450px;
-    width: 300px;
     border: solid 3px rgba(218, 0, 0, 0.979);
-    border-radius: 50px;
-    float: left;
-    margin: 10px;
-    text-align: center;
     color: rgb(0, 0, 0);
     box-shadow: rgb(16, 48, 228) 11px 11px 50px;
     background-color: rgba(32, 21, 185, 0.637);
-    margin-top: 20px;
     background-image: url(https://i.gifer.com/5Jxn.gif) ;
     background-size: cover ;
     background-repeat: no-repeat;
