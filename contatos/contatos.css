@@ -50,7 +50,7 @@ header > ul > a >li {
     padding: 8px;
     box-shadow: 1px 1px 20px rgb(12, 12, 12);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
+    transition: 0.5s;
     font-size: 13px;
 }
 header > ul >a > li:hover{
@@ -58,7 +58,7 @@ header > ul >a > li:hover{
     box-shadow: 2px 2px 40px rgb(233, 17, 17);
     font-size: 15px;
     color: rgb(112, 6, 6);
-    
+    transform: translateX(1px) translateY(1px);
 }
 .container{
     display: flex;

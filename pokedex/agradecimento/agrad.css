@@ -45,30 +45,21 @@ body{
     transition:  0.5s;
     box-shadow: 2px 2px 50px black;
 }
-.login> h1{
-    font-size: 50px;
-    color: wheat;
-    -webkit-text-stroke: 0.7px #000000;
-      text-stroke: 4px #000000;
-}
-.login > form{
-    font-size: 20px;
-    text-align: left;
-    margin-left: 10px;
-}
-.valid:invalid{
-    color: red;
+.login > h1{
+    color: rgb(231, 230, 230);
 }
 .login > a >button{
     padding:  5px 10px;
-    font-size: 40px;
-    background-color: rgb(49, 250, 49);
+    font-size: 30px;
+    background-color: rgb(207, 6, 6);
+    box-shadow: 2px 2px 30px;
     border-radius: 20px;
     border: none;
     cursor: pointer;
+    color: white;
     transition: 1s;    
 }
 .login > a > button:hover{
-    transform: translateX(3px) translateY(3px);
-    box-shadow: 2px 2px 30px green;
+    transform: translateX(3px) translateY(3px) ;
+    box-shadow: 2px 2px 30px rgb(128, 0, 0);
 }
